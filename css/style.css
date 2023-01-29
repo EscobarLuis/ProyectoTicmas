@@ -6,14 +6,12 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-/* Style the header */
 header {
     background-color: #666;
     padding: 10px;
     text-align: center;
     font-size: 35px;
     color: white;
-
 }
 
 #avatar {
@@ -22,9 +20,7 @@ header {
     height: 150px;
     border: 1px solid #ddd;
     padding: 5px;
-
 }
-
 
 nav {
     float: left;
@@ -43,9 +39,9 @@ article {
     padding: 20px;
     width: 70%;
     background-color: #f1f1f1;
-    height: auto;  
-    
+    height: 538px;   
 }
+
 .btn-group .button {
     background-color: #333;
     border: 1px solid grey;
@@ -53,7 +49,6 @@ article {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     display: block;
     font-size: 20px;
     cursor: pointer;
@@ -68,16 +63,15 @@ article {
     background-color: grey;
   }
 #titulo{
-    clear:both"
-}
-/* Clear floats after the columns */
-section::after {
-    content: "";
-    display: table;
-    clear: both;
+    clear:both;
 }
 
-/* Style the footer */
+ section::after {
+    content: ""; 
+    display: table;
+    clear: both;
+} 
+
 footer {
     background-color: #777;
     padding: 10px;
@@ -88,12 +82,10 @@ footer {
 .iconos {
     width: 20px;
     height: 20px;
-
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
 
+@media (max-width: 600px) {
     nav,
     article {
         width: 100%;
